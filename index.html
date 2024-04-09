@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css ">
+  <style>
+    .form {
+      width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      float: right;
+      top: 3%;
+      left: -12%;
+      position: relative;
+    }
+    .image{
+      max-width: 550px;
+      position:relative;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      float: left;
+      top: 3%;
+      left: 10%;
+      height: 617.5px;
+    }
+    img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 20px;
+}
+    .container{
+        width: 1400px;
+        height: 700px;
+        border: 3px solid darkcyan;
+        border-radius: 30px;align-items: center;
+        position: relative;
+        left: 3.5%;
+    }
+    h1 {
+      position: relative;
+      left: 13%;
+    }
+    h2{
+      position: relative;
+      bottom: 95%;
+      font-size: xx-large;
+      left: 15px;
+      color: #fff;
+    }
+    h3{
+      position: relative;
+      bottom:43% ;
+      font-size: x-large;
+      left: 15px;
+      color:white;
+    }
+    h4{
+      position: relative;
+      bottom:45% ;
+      font-size: large;
+      left: 15px;
+      color:white;
+    }
+    h5{
+      position: relative;
+      bottom:50% ;
+      font-size: large;
+      left: 15px;
+      color:white;
+      display: inline-block;
+      margin: 30px;
+      border: 2px solid white;
+      border-radius: 7px;
+      height: 25px;
+      width: 125px; 
+      text-align: center;
+      
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 75%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      position: relative;
+      left: 13%;
+    }
+    
+    label {
+      font-weight: bold;
+      position: relative;
+      left: 13%;
+    }
+    .checkbox-label {
+      display: block;
+      margin-bottom: 10px;
+      
+    }
+    .checkbox-label input {
+      margin-right: 5px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 75%;
+      position: relative;
+      left: 13%;
+    }
+    .btn-google {
+      background-color: white;
+      display: inline-block;
+      padding: 10px 20px;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      border:2px solid black;
+    }
+    .btn-facebook {
+      background-color: white;
+      display: inline-block;
+      padding: 10px 20px;
+      color: black;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 2px solid black;
+    }
+    a {
+    cursor: pointer;
+    text-decoration: none;
+}
+    .text-center {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="huma.jpg" alt="">
+            <h2> EL3VATE</h2> 
+            <h3>UNLOCK EXCLUSIVE DISCOUNTS <br> BY SIGNING UP TODAY!</h3>
+            <h4>Luxury shopping without limits</h4>
+            <h5>100% cotton </h5>
+            <h5>free delivery</h5>
+        </div>
+        <div class="form">
+            <h1>Create an Account</h1>
+            <form >
+              <label for="fname">First Name</label><br>
+              <input type="text" id="fname" name="fname" required><br>
+        
+              <label for="lname">Last Name</label><br>
+              <input type="text" id="lname" name="lname" required><br>
+        
+              <label for="email">Email Address</label><br>
+              <input type="email" id="email" name="email" required><br>
+        
+              <label for="password">Password</label><br>
+              <input type="password" id="password" name="password" required><br>
+        
+              <label for="repassword">Re-enter Password</label><br>
+              <input type="password" id="repassword" name="repassword" required><br>
+        
+              <label class="checkbox-label">
+                <input type="checkbox" id="terms" name="terms" required>
+                By registering, you agree with our <a href="#">Terms of Service</a>
+              </label>
+        
+              <button type="submit" class="btn">Sign Up</button>
+            </form>
+        
+            <div class="text-center">
+              <p>OR</p>
+              <a href="#" class="btn-google"><i class="fab fa-google"></i> Sign Up with Google</a>
+              <a href="#" class="btn-facebook"><i class="fab fa-facebook-f"></i> Sign Up with Facebook</a>
+            </div>
+        
+            <p class="text-center">Already have an account? <a href="#">Sign In</a></p>
+          </div>
+    </div>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js "></script>
+</body>
+</html>
